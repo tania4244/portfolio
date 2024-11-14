@@ -13,7 +13,7 @@ const Hero = () => {
               <span className="text-[#2b7ae9]">
                 Hello! <br />
               </span>
-              I'm Fuade Hasan Alamin
+              I'm Tania Kabir
             </h1>
             <h2 className="text-2xl text-zinc-200  font-poppins py-4 tracking-wide capitalize">
               A Frontend Developer specialized in the MERN stack.
@@ -30,7 +30,7 @@ const Hero = () => {
             {/* Linkedin Icon */}
             <li>
               <a
-                href="https://www.linkedin.com/in/fuade-hasan-alamin"
+                href="#"
                 target="_blank"
                 class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
               >
@@ -40,7 +40,7 @@ const Hero = () => {
             {/* Github Icon */}
             <li>
               <a
-                href="https://github.com/alamin6688"
+                href="https://github.com/tania4244"
                 target="_blank"
                 class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
               >
@@ -74,7 +74,7 @@ const Hero = () => {
         </div>
 
         {/* right blur shadow */}
-        <div className="w-[100px] h-[100px] bg-[#006aff] blur-[90px] absolute bottom-[80px] right-[80px]"></div>
+        {/* <div className="w-[100px] h-[100px] bg-[#006aff] blur-[90px] absolute bottom-[80px] right-[80px]"></div> */}
       </div>
     </section>
   );

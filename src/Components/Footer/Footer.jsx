@@ -20,7 +20,7 @@ const Footer = () => {
         </aside>
         <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end hover:shadow-xl duration-300 hover:scale-[1.15] transition-all">
           <a
-            href="https://www.linkedin.com/in/fuade-hasan-alamin"
+            href="#"
             target="_blank"
             class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
           >
@@ -28,14 +28,14 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://github.com/alamin6688"
+            href="https://github.com/tania4244"
             target="_blank"
             class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
           >
             <FaGithub className="w-8 h-8" />
           </a>
           <a
-            href="https://www.facebook.com/fuade.hasan.alamin.06"
+            href="#"
             target="_blank"
             class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
           >

@@ -50,69 +50,69 @@ const projects = [
     tools: ["Tailwind CSS", "Axios", "JWT Authentication"],
     status: "Completed",
   },
-  {
-    websiteName: "Tech Blaze",
-    title: "Blog Website",
-    description:
-      "A modern blog platform that allows users to read, comment, and share tech-related articles. It features user authentication, article categorization, and a responsive design.",
-    features: [
-      "User authentication for reading and posting comments.",
-      "Article categorization by tags and topics.",
-      "Responsive design for both mobile and desktop views.",
-      "Real-time comment section with user interactions.",
-      "Integration with social media for easy sharing.",
-    ],
-    liveLink: "https://tech-blaze.netlify.app",
-    sourceCode: "https://github.com/alamin6688/tech-blaze-client.git",
-    technologies: ["React", "Node.js", "MongoDB", "Firebase"],
-    tools: ["Tailwind CSS", "Axios", "Express.js"],
-    status: "Completed",
-  },
-  {
-    websiteName: "Recipe Cafe",
-    title: "Recipe Sharing Platform",
-    description:
-      "An interactive platform for food enthusiasts to discover, share, and explore a wide variety of recipes. Features include user submissions, recipe categorization, and a favorites section.",
-    features: [
-      "Browse and search recipes by ingredients or categories.",
-      "Submit and share your own recipes with the community.",
-      "Add recipes to your favorites for quick access.",
-      "Responsive design optimized for both mobile and desktop users.",
-      "User ratings and comments on recipes.",
-      "Recipe details with step-by-step instructions and ingredient lists.",
-    ],
-    liveLink: "https://recipe-cafe.netlify.app",
-    sourceCode: "https://github.com/alamin6688/recipe-cafe.git",
-    technologies: ["React", "Node.js", "MongoDB", "Firebase"],
-    tools: ["Tailwind CSS", "Axios", "Express.js"],
-    status: "Completed",
-  },
-  {
-    websiteName: "Book Store Hub",
-    title: "Online Bookstore Platform",
-    description:
-      "A modern and user-friendly platform for browsing, purchasing, and reviewing books. Features include personalized book recommendations, secure payments, and user reviews.",
-    features: [
-      "Browse books by genres, authors, and bestsellers.",
-      "Personalized book recommendations based on user preferences.",
-      "User reviews and ratings for each book.",
-      "Secure online payment and order tracking.",
-      "Wishlist and cart functionality.",
-      "Responsive design for all devices.",
-    ],
-    liveLink: "https://book-store-hub.netlify.app",
-    sourceCode: "https://github.com/alamin6688/book-store.git",
-    technologies: ["React", "Node.js", "MongoDB", "Firebase"],
-    tools: ["Tailwind CSS", "Axios", "Express.js"],
-    status: "Completed",
-  },
+  // {
+  //   websiteName: "Tech Blaze",
+  //   title: "Blog Website",
+  //   description:
+  //     "A modern blog platform that allows users to read, comment, and share tech-related articles. It features user authentication, article categorization, and a responsive design.",
+  //   features: [
+  //     "User authentication for reading and posting comments.",
+  //     "Article categorization by tags and topics.",
+  //     "Responsive design for both mobile and desktop views.",
+  //     "Real-time comment section with user interactions.",
+  //     "Integration with social media for easy sharing.",
+  //   ],
+  //   liveLink: "https://tech-blaze.netlify.app",
+  //   sourceCode: "https://github.com/alamin6688/tech-blaze-client.git",
+  //   technologies: ["React", "Node.js", "MongoDB", "Firebase"],
+  //   tools: ["Tailwind CSS", "Axios", "Express.js"],
+  //   status: "Completed",
+  // },
+  // {
+  //   websiteName: "Recipe Cafe",
+  //   title: "Recipe Sharing Platform",
+  //   description:
+  //     "An interactive platform for food enthusiasts to discover, share, and explore a wide variety of recipes. Features include user submissions, recipe categorization, and a favorites section.",
+  //   features: [
+  //     "Browse and search recipes by ingredients or categories.",
+  //     "Submit and share your own recipes with the community.",
+  //     "Add recipes to your favorites for quick access.",
+  //     "Responsive design optimized for both mobile and desktop users.",
+  //     "User ratings and comments on recipes.",
+  //     "Recipe details with step-by-step instructions and ingredient lists.",
+  //   ],
+  //   liveLink: "https://recipe-cafe.netlify.app",
+  //   sourceCode: "https://github.com/alamin6688/recipe-cafe.git",
+  //   technologies: ["React", "Node.js", "MongoDB", "Firebase"],
+  //   tools: ["Tailwind CSS", "Axios", "Express.js"],
+  //   status: "Completed",
+  // },
+  // {
+  //   websiteName: "Book Store Hub",
+  //   title: "Online Bookstore Platform",
+  //   description:
+  //     "A modern and user-friendly platform for browsing, purchasing, and reviewing books. Features include personalized book recommendations, secure payments, and user reviews.",
+  //   features: [
+  //     "Browse books by genres, authors, and bestsellers.",
+  //     "Personalized book recommendations based on user preferences.",
+  //     "User reviews and ratings for each book.",
+  //     "Secure online payment and order tracking.",
+  //     "Wishlist and cart functionality.",
+  //     "Responsive design for all devices.",
+  //   ],
+  //   liveLink: "https://book-store-hub.netlify.app",
+  //   sourceCode: "https://github.com/alamin6688/book-store.git",
+  //   technologies: ["React", "Node.js", "MongoDB", "Firebase"],
+  //   tools: ["Tailwind CSS", "Axios", "Express.js"],
+  //   status: "Completed",
+  // },
 ];
 
 const Works = () => {
   return (
-    <section id="works" className="bg-[#18181B]">
+    <section id="works" className="bg-gray-200">
       <div className="max-w-screen-2xl px-6 pt-4 pb-10 mx-auto">
-        <h1 className="text-2xl md:text-3xl font-extrabold text-center uppercase lg:text-4xl py-4 md:py-8 text-zinc-200">
+        <h1 className="text-2xl md:text-3xl font-extrabold text-center uppercase lg:text-4xl py-4 md:py-8 text-black">
           My Latest Projects
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 xl:mt-12 xl:gap-12 pb-4 md:pb-0 animate__animated animate__zoomIn">

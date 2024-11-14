@@ -2,9 +2,9 @@ import React from "react";
 
 const About = () => {
   return (
-    <section id="about" className="bg-[#18181B]">
+    <section id="about" className="bg-gray-200">
       <div className="max-w-screen-2xl w-full pt-4 pb-12 mx-auto">
-        <h1 className="text-2xl md:text-3xl font-extrabold text-center uppercase lg:text-4xl py-4 md:py-8 text-zinc-200">
+        <h1 className="text-2xl md:text-3xl font-extrabold text-center uppercase lg:text-4xl py-4 md:py-8 text-black">
           About Me
         </h1>
 
@@ -17,7 +17,7 @@ const About = () => {
                   <img
                     className="object-cover w-52 h-52 rounded-full"
                     src="https://i.postimg.cc/XqwTbdbg/1707588679322.jpg"
-                    alt="Alamin"
+                    alt="Tania"
                   />
                 </div>
 
@@ -34,15 +34,15 @@ const About = () => {
 
             <div className="w-full md:w-3/4 mx-auto duration-300 hover:scale-[1.05] transition-all p-4">
               <div className="space-y-6">
-                <p className="text-2xl text-zinc-200 font-poppins tracking-wide capitalize text-center md:text-left">
+                <p className="text-2xl text-black font-poppins tracking-wide capitalize text-center md:text-left">
                   What I do
                 </p>
                 <div>
                   <div className="flex items-center  justify-between">
-                    <p className="text-zinc-200 font-poppins tracking-wider">
+                    <p className="text-black font-poppins tracking-wider">
                       Web Development
                     </p>
-                    <p className="text-zinc-200 font-poppins tracking-wider">
+                    <p className="text-black font-poppins tracking-wider">
                       90%
                     </p>
                   </div>
@@ -56,10 +56,10 @@ const About = () => {
 
                 <div>
                   <div className="flex items-center justify-between">
-                    <p className="text-zinc-200 font-poppins tracking-wider">
+                    <p className="text-black font-poppins tracking-wider">
                       Graphic Design
                     </p>
-                    <p className="text-zinc-200 font-poppins tracking-wider">
+                    <p className="text-black font-poppins tracking-wider">
                       60%
                     </p>
                   </div>
@@ -72,11 +72,11 @@ const About = () => {
 
                 <div>
                   <div className="flex items-center justify-between">
-                    <p className="text-zinc-200 font-poppins tracking-wider">
+                    <p className="text-black font-poppins tracking-wider">
                       {" "}
                       UI/UX Design
                     </p>{" "}
-                    <p className="text-zinc-200 font-poppins tracking-wider">
+                    <p className="text-black font-poppins tracking-wider">
                       70%
                     </p>
                   </div>

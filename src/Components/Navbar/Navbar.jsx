@@ -82,7 +82,7 @@ const Navbar = () => {
       >
         My Works
       </NavLink>
-      <NavLink
+      {/* <NavLink
         to="#blogs"
         onClick={() => handleNavClick("blogs")}
         className={({ isActive }) =>
@@ -94,7 +94,7 @@ const Navbar = () => {
         }
       >
         Blogs
-      </NavLink>
+      </NavLink> */}
       <NavLink
         to="#contact"
         onClick={() => handleNavClick("contact")}

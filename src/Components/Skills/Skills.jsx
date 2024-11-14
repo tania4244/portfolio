@@ -68,13 +68,13 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="bg-[#18181B]">
+    <section id="skills" className="bg-gray-200">
       <div className="max-w-screen-2xl px-6 w-full pt-4 pb-12 mx-auto">
-        <h1 className="text-2xl md:text-3xl font-extrabold text-center uppercase lg:text-4xl py-4 md:py-8 text-zinc-200">
+        <h1 className="text-2xl md:text-3xl font-extrabold text-center uppercase lg:text-4xl py-4 md:py-8 text-black">
           My Skills
         </h1>
 
-        <p className="my-2 text-[1rem] text-zinc-300 font-poppins tracking-wider text-center w-full md:w-3/4 mx-auto">
+        <p className="my-2 text-[1rem] text-black font-poppins tracking-wider text-center w-full md:w-3/4 mx-auto">
           I take your ideas and turn them into unique web projects that not only
           inspire you but also engage your audience.
         </p>
